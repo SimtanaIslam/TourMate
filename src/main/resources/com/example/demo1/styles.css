@@ -1,0 +1,60 @@
+#anchor_pane {
+    -fx-background-color: white; /* Set background color */
+}
+
+#label_registration,
+#label_login {
+    -fx-font-size: 24px; /* Set font size */
+    -fx-font-weight: bold; /* Set font weight */
+}
+
+
+#label_username,
+#label_fullName,
+#label_phone,
+#label_email,
+#label_password,
+#label_re_password {
+    -fx-font-size: 14px; /* Set font size */
+}
+
+#tf_username,
+#tf_Fullname,
+#tf_phone,
+#tf_email,
+#tf_password,
+#tf_re_password {
+    -fx-prompt-text-fill: #808080; /* Set prompt text color */
+    -fx-font-size: 14px; /* Set font size */
+    -fx-border-color: #dcdcdc; /* Set border color */
+    -fx-border-radius: 5px; /* Set border radius */
+}
+
+#button_register, #button_login {
+    -fx-font-size: 14px; /* Set font size */
+    -fx-background-color: #007bff; /* Set background color */
+    -fx-text-fill: white; /* Set text color */
+    -fx-border-radius: 5px; /* Set border radius */
+}
+
+#button_register:hover{
+    -fx-background-color: #0056b3; /* Set background color on hover */
+}
+#button_option_login, #button_option_register{
+    -fx-font-size: 8px; /* Set font size */
+        -fx-background-color: #f0f0f0; /* Set background color */
+        -fx-text-fill: blue; /* Set text color */
+        -fx-border-radius: 5px; /* Set border radius */
+        -fx-border-color: #f0f0f0;
+}
+#button_option_login:hover,#button_option_register:hover{
+    -fx-text-fill: red; /* Set background color on hover */
+}
+#GRID {
+     -fx-background-color: #f0f0f0;
+    -fx-border-color: #dcdcdc; /* Set border color */
+    -fx-border-width: 1px; /* Set border width */
+    -fx-border-radius: 0px; /* Set border radius */
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.3), 10, 0.5, 0, 0); /* Add box shadow */
+}
+
